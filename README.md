@@ -7,3 +7,5 @@ HTML CSS JQuery S3
 # 工夫点・作成記
 平家物語自体に意味はありません。デモページに文字を埋めるのに著作権の切れた小説を使うという話を聞いてやってみました。
 小説で時々漫画を差し込んだりすることを想定しています。
+
+http://annapanda-webpagedemos.xyz/heike_index.html
