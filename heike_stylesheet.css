@@ -1,0 +1,135 @@
+html{
+  background-color: rgb(29, 29, 29);
+}
+
+
+.topWrapper{
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topWrapper > img{
+  width: 250px;
+  display: block;
+  margin-left: 100px; 
+}
+
+.title{
+  position: relative;
+  margin-right: 100px;
+}
+
+h1{
+  font-size: 32px;
+  font-family: "Hannari";
+  z-index: 100;
+  position: relative;
+}
+.title > span{
+  display: block;
+  background-color: red;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.titleBottom{
+  /* outline: 1px solid green; */
+  height: 900px;
+  width: 100%;
+  background: linear-gradient(to bottom, #fff, #fff 80%, transparent);
+}
+.background{
+  height: 100vh;
+  width: 55vw;
+  transform: translateY(-50%);
+  overflow: hidden;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: -100;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 180px 0 100px rgb(29, 29, 29) inset;
+}
+
+.background:nth-of-type(odd){
+  box-shadow: -180px 0 100px rgb(29, 29, 29) inset;
+  left: 0;
+}
+
+.bg1{
+  background-image: url("heike_image_bg1.jpg");
+}
+
+.bg2{
+  background-image: url("heike_image_bg2.jpg");
+  display: none;
+}
+
+.bg3{
+  background-image: url("heike_image_bg3.jpg");
+  display: none;
+}
+
+.bg4{
+  background-image: url("heike_image_bg4.jpg");
+  display: none;
+}
+
+.bg5{
+  background-image: url("heike_image_bg5.jpg");
+  display: none;
+}
+
+.contents{
+  font-size: 0;
+  width:  100%;
+  /* outline: 1px solid green; */
+}
+
+.wrapper{
+  font-size: 0;
+  /* outline: 1px solid blue; */
+  padding: 1300px 80px 0;
+  width: 50vw;
+  height: 5500px;
+}
+.wrapper1{
+  padding-top: 600px;
+}
+
+.wrapper > p{
+  text-align: center;
+  /* outline: 1px solid red; */
+  margin: 0 auto;
+  color: rgb(204, 204, 204);
+  font-size: 32px;
+  padding: 65px 0;
+  font-family: "Sawarabi Mincho";
+}
+
+.wrapper2, .wrapper4{
+  float: right;
+}
+
+.contents::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wrapper > .sentens{
+  margin-top: 500px;
+}
+
+.wrapper4, .wrapper5 > .sentens{
+  margin-top: 800px;
+}
